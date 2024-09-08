@@ -22,15 +22,6 @@ Popup {
         visible: false
 
         onAccepted: {
-            // if (title === "Submissions url")
-            // {
-            //     propertiesViewModelID.setSubmissionsUrl(selectedFolder)
-            // }
-            // else if (title === "Company facts url")
-            // {
-            //     propertiesViewModelID.setCompanyfactsUrl(selectedFolder)
-            // }
-            // else
             if (title === "Downloads folder")
             {
                 propertiesViewModelID.setDownloadsFolderLocation(selectedFolder)
